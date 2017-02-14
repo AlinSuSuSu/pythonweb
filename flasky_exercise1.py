@@ -97,6 +97,7 @@ user_david = User(username='david', role=user_role)
 @app.route('/',methods=['GET','POST'])
 def index():
     form = NameForm()
+
     if form.validate_on_submit():
          '''old_name = session.get('name')
         user = User.query.filter_by(username=form.name.data).first()
