@@ -92,7 +92,7 @@ user_david = User(username='david', role=user_role)
 #db.session.add_all([admin_role, mod_role, user_role, user_john, user_susan, user_david])
 # 再用commit方法提交会话
 #db.session.commit()
-#new
+#new2
 '''
 @app.route('/',methods=['GET','POST'])
 def index():

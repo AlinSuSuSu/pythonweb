@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bbbf08e-96a9-4073-82ab-28d3051ad4fa" name="Default" comment="static -aa">
+    <list default="true" id="1bbbf08e-96a9-4073-82ab-28d3051ad4fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/aa" afterPath="$PROJECT_DIR$/static/aa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flasky_exercise1.py" afterPath="$PROJECT_DIR$/flasky_exercise1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flasky_exercise1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flasky_exercise1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flasky_exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="97" column="12" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
               <folding>
                 <element signature="e#308#364#0" expanded="true" />
               </folding>
@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aa" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aa" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/aa">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -62,8 +62,9 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1487065355193" expanded="true" signature="37605:37622" ph="..." />
-                <marker date="1487065355193" expanded="true" signature="37605:37668" ph="..." />
+                <marker date="1487065391596" expanded="true" signature="37767:37784" ph="..." />
+                <marker date="1487065391596" expanded="true" signature="37767:37815" ph="..." />
+                <marker date="1487065391596" expanded="true" signature="37767:37830" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,8 +144,8 @@
         <option value="$PROJECT_DIR$/static/hello_get.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/flasky_exercise1.py" />
         <option value="$PROJECT_DIR$/static/aa" />
+        <option value="$PROJECT_DIR$/flasky_exercise1.py" />
       </list>
     </option>
   </component>
@@ -491,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487065256060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="static -aa">
+      <created>1487065362427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487065362427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -697,18 +705,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487065355193" expanded="true" signature="37605:37622" ph="..." />
-            <marker date="1487065355193" expanded="true" signature="37605:37668" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flasky_exercise1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="97" column="12" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-          <folding>
-            <element signature="e#308#364#0" expanded="true" />
+            <marker date="1487065391596" expanded="true" signature="37767:37784" ph="..." />
+            <marker date="1487065391596" expanded="true" signature="37767:37815" ph="..." />
+            <marker date="1487065391596" expanded="true" signature="37767:37830" ph="..." />
           </folding>
         </state>
       </provider>
@@ -718,6 +717,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flasky_exercise1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding>
+            <element signature="e#308#364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
