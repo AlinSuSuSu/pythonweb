@@ -13,7 +13,7 @@ from flask import session, redirect, url_for
 from flask import flash
 
 import os
-
+basedir = os.path.abspath(os.path.dirname(__file__))
 #表单
 class NameForm(FlaskForm):
     name = StringField("What's your name?",validators=[Required()])
@@ -27,8 +27,10 @@ app.config['SECRET_KEY'] = 'hard to guess string'
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 
+
 @app.route('/',methods=['GET','POST'])
 def index():
+
     form = NameForm()
     if form.validate_on_submit():
          old_name = session.get('name')
@@ -52,4 +54,4 @@ def page_not_found(e):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=7775)
