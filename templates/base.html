@@ -1,6 +1,5 @@
 {% extends "bootstrap/base.html" %}
 
-
 {% block title %}Flasky{% endblock %}
 
 
@@ -44,17 +43,10 @@
     </div>
     {% endfor %}
     {% block page_content %}
-    <div class="page-header">
-        <h1>Hello,{% if name %}{{ name }}{% else %}Stranger{% endif %}</h1>
-        {% if not known %}
-        <p>Pleased to meet you!</p>
-        {% else %}
-        <p>Happy to see you again!</p>
-        {% endif %}
-    </div>
+
     {% endblock %}
 </div>
-    {{ wtf.quick_form(form) }}
+
 {% endblock %}
 
 #引入moment.js库

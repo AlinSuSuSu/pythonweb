@@ -6,10 +6,10 @@
 
 {% block page_content %}
     {{ super() }}
-<div class="page-header">
-    <h1>Hello,{% if name %}{{ name }}{% else %}Stranger{% endif %}</h1>
+    <div class="page-header">
+        <h1>Hello,{% if name %}{{ name }}{% else %}Stranger{% endif %}</h1>
 
-</div>
+    </div>
     {{ wtf.quick_form(form) }}
     <br><p>The Local Time is {{ moment(current_time).format('LLL') }}</p>
     <p>That was {{ moment(current_time).fromNow(refresh=True) }}</p>
